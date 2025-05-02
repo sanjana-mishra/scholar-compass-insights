@@ -1,3 +1,4 @@
+
 import type { Config } from "tailwindcss";
 
 export default {
@@ -61,6 +62,35 @@ export default {
 					'accent-foreground': 'hsl(var(--sidebar-accent-foreground))',
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
+				},
+				// EDURAAH custom colors
+				eduraah: {
+					primary: '#2B39A0',  // Primary blue
+					blue: {
+						light: '#D3E4FD',
+						DEFAULT: '#3375d3',
+						dark: '#1E3A8A'
+					},
+					green: {
+						light: '#E1F5E6',
+						DEFAULT: '#2E7D4B',
+						dark: '#1A543B'
+					},
+					orange: {
+						light: '#FDE1D3',
+						DEFAULT: '#E86C32',
+						dark: '#C04F1D'
+					},
+					purple: {
+						light: '#E5DEFF',
+						DEFAULT: '#7361F5',
+						dark: '#4737AE'
+					},
+					red: {
+						light: '#FFDEE2',
+						DEFAULT: '#E84C52',
+						dark: '#B02E33'
+					}
 				}
 			},
 			borderRadius: {
@@ -84,11 +114,22 @@ export default {
 					to: {
 						height: '0'
 					}
+				},
+				'fade-in': {
+					from: {
+						opacity: '0',
+						transform: 'translateY(10px)'
+					},
+					to: {
+						opacity: '1',
+						transform: 'translateY(0)'
+					}
 				}
 			},
 			animation: {
 				'accordion-down': 'accordion-down 0.2s ease-out',
-				'accordion-up': 'accordion-up 0.2s ease-out'
+				'accordion-up': 'accordion-up 0.2s ease-out',
+				'fade-in': 'fade-in 0.5s ease-out forwards'
 			}
 		}
 	},
