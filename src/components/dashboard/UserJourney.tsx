@@ -76,12 +76,6 @@ const UserJourney = () => {
               <div className="text-sm text-center px-2">{step.title}</div>
             </div>
             
-            {/* Arrow - Aligned with the center of circles */}
-            {index < steps.length - 1 && (
-              <div className="hidden md:flex items-center justify-center w-16 h-16 text-gray-400 mx-2">
-                →
-              </div>
-            )}
             
             {/* Step Details - Enhanced alignment */}
             <div className="mt-4 p-3 border rounded-lg bg-gray-50 w-56">

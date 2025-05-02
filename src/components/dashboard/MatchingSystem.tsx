@@ -15,6 +15,11 @@ const MatchingSystem = () => {
     "University of Michigan",
     "MIT",
     "Cambridge",
+    "University of Toronto",
+    "National University of Singapore",
+    "ETH Zurich",
+    "University of California, Berkeley",
+    "Imperial College London",
   ];
 
   return (
@@ -49,10 +54,6 @@ const MatchingSystem = () => {
             <p className="text-sm font-semibold text-purple-700">
               EDURAAH's AI Matching Engine
             </p>
-          </div>
-          <div className="flex flex-col items-center my-2">
-            <div className="h-6 border-l-2 border-gray-300 my-1"></div>
-            <div className="w-8 h-0 border-t-2 border-gray-300"></div>
           </div>
         </div>
 
