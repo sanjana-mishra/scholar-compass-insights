@@ -11,10 +11,10 @@ const UserFlow = () => {
         <div className="flex-1 p-6 overflow-auto">
           <header className="mb-8">
             <h1 className="text-3xl font-bold text-eduraah-primary mb-2">
-              User Flow for University
+              User Flow
             </h1>
             <p className="text-gray-600">
-              EDURAAH User Journey Flow: from profile creation to post-admission support.
+              EDURAAH User Journey Flow: From profile creation to post-admission support.
             </p>
           </header>
 
@@ -22,9 +22,9 @@ const UserFlow = () => {
             <UserJourney />
           </div>
 
-          <footer className="mt-8 text-center text-sm text-gray-500">
+          {/* <footer className="mt-8 text-center text-sm text-gray-500">
             <p>© 2025 EDURAAH - Empowering Education Decisions</p>
-          </footer>
+          </footer> */}
         </div>
       </div>
     </SidebarProvider>
