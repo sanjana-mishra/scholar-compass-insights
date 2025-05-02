@@ -23,7 +23,7 @@ const PersonalityEngine = () => {
 
   const campusEnvironments = [
     { 
-      title: "Collaborative campus", 
+      title: "Collaborative campus/Self-study", 
       bgColor: "bg-green-100", 
     },
     { 
@@ -31,7 +31,7 @@ const PersonalityEngine = () => {
       bgColor: "bg-blue-200", 
     },
     { 
-      title: "Structured curriculum", 
+      title: "Structured curriculum/Flexible learning", 
       bgColor: "bg-purple-100", 
     },
     { 
@@ -67,13 +67,10 @@ const PersonalityEngine = () => {
               <div className="text-xl font-bold">EDURAAH</div>
               <div className="text-lg font-bold">Personality</div>
               <div className="text-lg font-bold">Engine</div>
-              <div className="text-xs mt-1">AI engine matches personality to</div>
             </div>
           </div>
-          <p className="text-center text-sm mt-2">
-            <strong>EDURAAH Personality Engine</strong><br />
-            AI engine matches personality to learning<br />environment & campus life
-          </p>
+          <p className="text-sm text-center text-gray-600">
+            Powered by AI to match your personality with the right campus environment. </p>
         </div>
 
         {/* Right Column - Campus Types */}
