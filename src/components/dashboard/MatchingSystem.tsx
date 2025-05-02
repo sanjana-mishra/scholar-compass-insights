@@ -27,14 +27,17 @@ const MatchingSystem = () => {
         {/* Student Profile */}
         <div className="bg-blue-50 rounded-lg p-4 flex-1">
           <h3 className="text-lg font-semibold mb-3 text-center">Student Profile</h3>
-          <ul className="space-y-3">
+          <div className="grid grid-cols-1 gap-3">
             {studentProfileItems.map((item) => (
-              <li key={item.name} className="flex items-center">
+              <div 
+                key={item.name} 
+                className="flex items-center bg-white rounded-md p-3 shadow-sm border border-blue-100"
+              >
                 <span className="mr-3 text-lg">{item.icon}</span>
                 <span>{item.name}</span>
-              </li>
+              </div>
             ))}
-          </ul>
+          </div>
         </div>
 
         {/* AI Matching Engine */}

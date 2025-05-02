@@ -67,29 +67,29 @@ const UserJourney = () => {
         EDURAAH User Journey Flow
       </h2>
 
-      <div className="flex flex-wrap justify-center gap-2 mb-8">
+      <div className="flex flex-wrap justify-center gap-8 mb-8">
         {steps.map((step, index) => (
           <div key={step.number} className="flex flex-col items-center">
-            {/* Step Circle */}
-            <div className={`${step.color} w-24 h-24 rounded-full flex flex-col items-center justify-center text-white`}>
+            {/* Step Circle - Larger size */}
+            <div className={`${step.color} w-32 h-32 rounded-full flex flex-col items-center justify-center text-white`}>
               <div className="text-lg font-bold">Step {step.number}</div>
-              <div className="text-sm">{step.title}</div>
+              <div className="text-sm text-center px-2">{step.title}</div>
             </div>
             
-            {/* Arrow */}
+            {/* Arrow - Aligned with the center of circles */}
             {index < steps.length - 1 && (
-              <div className="hidden md:block w-8 h-8 text-gray-400 mx-2">
+              <div className="hidden md:flex items-center justify-center w-16 h-16 text-gray-400 mx-2">
                 →
               </div>
             )}
             
-            {/* Step Details */}
+            {/* Step Details - Enhanced alignment */}
             <div className="mt-4 p-3 border rounded-lg bg-gray-50 w-56">
               <ul className="space-y-2">
                 {step.items.map((item) => (
-                  <li key={item} className="flex items-start">
-                    <span className="mr-2 mt-1">•</span>
-                    <span className="text-sm">{item}</span>
+                  <li key={item} className="flex items-center">
+                    <span className="mr-2 mt-0 flex-shrink-0">•</span>
+                    <span className="text-sm text-center">{item}</span>
                   </li>
                 ))}
               </ul>
