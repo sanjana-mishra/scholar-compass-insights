@@ -1,15 +1,14 @@
 
-import { Home, BookOpen, ClipboardList, User, Users, BarChart3, Settings } from "lucide-react";
+import { Home, User, Users, Search, BarChart3, Settings } from "lucide-react";
 import { NavLink } from "react-router-dom";
 import { cn } from "@/lib/utils";
 
 const Sidebar = () => {
   const menuItems = [
     { name: "Overview", icon: Home, path: "/" },
-    { name: "University Matches", icon: BookOpen, path: "/matches" },
-    { name: "Applications", icon: ClipboardList, path: "/applications" },
-    { name: "Profile", icon: User, path: "/profile" },
-    { name: "Community", icon: Users, path: "/community" },
+    { name: "Personality Mapping", icon: User, path: "/personality" },
+    { name: "User Flow", icon: Users, path: "/userflow" },
+    { name: "AI Matching", icon: Search, path: "/matching" },
     { name: "Analytics", icon: BarChart3, path: "/analytics" },
     { name: "Settings", icon: Settings, path: "/settings" },
   ];

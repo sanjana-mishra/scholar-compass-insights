@@ -1,9 +1,9 @@
 
 import { SidebarProvider } from "@/components/ui/sidebar";
 import Sidebar from "@/components/layout/Sidebar";
-import PlatformInsights from "@/components/dashboard/PlatformInsights";
+import UserJourney from "@/components/dashboard/UserJourney";
 
-const Analytics = () => {
+const UserFlow = () => {
   return (
     <SidebarProvider>
       <div className="min-h-screen flex w-full bg-gray-50">
@@ -11,15 +11,15 @@ const Analytics = () => {
         <div className="flex-1 p-6 overflow-auto">
           <header className="mb-8">
             <h1 className="text-3xl font-bold text-eduraah-primary mb-2">
-              Analytics Dashboard
+              User Flow for University
             </h1>
             <p className="text-gray-600">
-              Key Platform Insights for your educational journey.
+              EDURAAH User Journey Flow: from profile creation to post-admission support.
             </p>
           </header>
 
           <div className="space-y-8 animate-fade-in">
-            <PlatformInsights />
+            <UserJourney />
           </div>
 
           <footer className="mt-8 text-center text-sm text-gray-500">
@@ -31,4 +31,4 @@ const Analytics = () => {
   );
 };
 
-export default Analytics;
+export default UserFlow;

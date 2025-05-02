@@ -1,9 +1,9 @@
 
 import { SidebarProvider } from "@/components/ui/sidebar";
 import Sidebar from "@/components/layout/Sidebar";
-import PlatformInsights from "@/components/dashboard/PlatformInsights";
+import PersonalityEngine from "@/components/dashboard/PersonalityEngine";
 
-const Analytics = () => {
+const Personality = () => {
   return (
     <SidebarProvider>
       <div className="min-h-screen flex w-full bg-gray-50">
@@ -11,15 +11,15 @@ const Analytics = () => {
         <div className="flex-1 p-6 overflow-auto">
           <header className="mb-8">
             <h1 className="text-3xl font-bold text-eduraah-primary mb-2">
-              Analytics Dashboard
+              Personality Mapping
             </h1>
             <p className="text-gray-600">
-              Key Platform Insights for your educational journey.
+              How Personality Drives the Perfect Match for your educational journey.
             </p>
           </header>
 
           <div className="space-y-8 animate-fade-in">
-            <PlatformInsights />
+            <PersonalityEngine />
           </div>
 
           <footer className="mt-8 text-center text-sm text-gray-500">
@@ -31,4 +31,4 @@ const Analytics = () => {
   );
 };
 
-export default Analytics;
+export default Personality;
