@@ -19,7 +19,6 @@ const Profile = () => {
           </header>
 
           <div className="space-y-8 animate-fade-in">
-            {/* User Journey */}
             <UserJourney />
           </div>
 

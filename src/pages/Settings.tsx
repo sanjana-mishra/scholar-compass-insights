@@ -19,7 +19,6 @@ const Settings = () => {
           </header>
 
           <div className="space-y-8 animate-fade-in">
-            {/* Platform Features */}
             <PlatformFeatures />
           </div>
 

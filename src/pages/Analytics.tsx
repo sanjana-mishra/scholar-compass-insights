@@ -20,10 +20,7 @@ const Analytics = () => {
           </header>
 
           <div className="space-y-8 animate-fade-in">
-            {/* Platform Insights */}
             <PlatformInsights />
-
-            {/* Matching System */}
             <MatchingSystem />
           </div>
 

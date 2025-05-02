@@ -19,7 +19,6 @@ const Community = () => {
           </header>
 
           <div className="space-y-8 animate-fade-in">
-            {/* Personality Engine */}
             <PersonalityEngine />
           </div>
 
