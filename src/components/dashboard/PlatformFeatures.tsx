@@ -25,7 +25,7 @@ const PlatformFeatures = () => {
     },
     {
       title: "Profile Analytics",
-      description: "Academic score: 8.5/10, Professional score: 7.8/10, Personalized insights",
+      description: "Academic score, Professional score, Personalized insights",
       icon: <BarChart3 className="h-8 w-8 text-white" />,
       bgColor: "bg-orange-500",
     },

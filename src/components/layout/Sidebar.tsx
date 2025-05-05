@@ -1,5 +1,4 @@
-
-import { Home, User, Users, Search, BarChart3, Settings } from "lucide-react";
+import { Home, User, Users, Search, BarChart3, Settings, Bot } from "lucide-react";
 import { NavLink } from "react-router-dom";
 import { cn } from "@/lib/utils";
 
@@ -9,6 +8,7 @@ const Sidebar = () => {
     { name: "Personality Mapping", icon: User, path: "/personality" },
     { name: "User Flow", icon: Users, path: "/userflow" },
     { name: "AI Matching", icon: Search, path: "/matching" },
+    { name: "AI Agents", icon: Bot, path: "/aiagents" },
     { name: "Analytics", icon: BarChart3, path: "/analytics" },
     { name: "Settings", icon: Settings, path: "/settings" },
   ];
@@ -37,17 +37,6 @@ const Sidebar = () => {
         ))}
       </nav>
 
-      <div className="p-4 border-t border-gray-200">
-        <div className="flex items-center space-x-3">
-          <div className="w-8 h-8 rounded-full bg-eduraah-primary text-white flex items-center justify-center font-medium">
-            JS
-          </div>
-          <div>
-            <p className="text-sm font-medium">John Smith</p>
-            <p className="text-xs text-gray-500">Student</p>
-          </div>
-        </div>
-      </div>
     </div>
   );
 };

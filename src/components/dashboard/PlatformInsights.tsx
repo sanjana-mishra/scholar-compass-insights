@@ -14,14 +14,14 @@ const PlatformInsights = () => {
           textColor="text-blue-700"
         />
         <StatCard
-          title="Top Universities"
+          title="Universities"
           value="Top"
           bgColor="bg-green-100"
           textColor="text-green-700"
         />
         <StatCard
           title="Admission Success"
-          value="85%"
+          value="90%"
           bgColor="bg-orange-100"
           textColor="text-orange-600"
         />
@@ -36,8 +36,8 @@ const PlatformInsights = () => {
           <h3 className="text-green-700 font-bold mb-2">Application Management</h3>
           <p className="text-sm">Track deadlines, documents, and progress from one place with personalized updates</p>
         </div>
-        <div className="bg-blue-50 p-5 rounded-lg text-center">
-          <h3 className="text-blue-700 font-bold mb-2">Resource Hub</h3>
+        <div className="bg-orange-50 p-5 rounded-lg text-center">
+          <h3 className="text-orange-700 font-bold mb-2">Resource Hub</h3>
           <p className="text-sm">Guides for scholarships, visa processing, finances, and student life</p>
         </div>
       </div>
