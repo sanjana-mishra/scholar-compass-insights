@@ -1,5 +1,5 @@
 
-import { Home, User, Users, Search, BarChart3, Settings } from "lucide-react";
+import { Home, User, Users, Search, BarChart3, Settings, Bot } from "lucide-react";
 import { NavLink } from "react-router-dom";
 import { cn } from "@/lib/utils";
 
@@ -9,6 +9,7 @@ const Sidebar = () => {
     { name: "Personality Mapping", icon: User, path: "/personality" },
     { name: "User Flow", icon: Users, path: "/userflow" },
     { name: "AI Matching", icon: Search, path: "/matching" },
+    { name: "AI Agents", icon: Bot, path: "/aiagents" },
     { name: "Analytics", icon: BarChart3, path: "/analytics" },
     { name: "Settings", icon: Settings, path: "/settings" },
   ];
