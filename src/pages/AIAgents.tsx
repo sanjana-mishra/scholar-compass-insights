@@ -1,7 +1,7 @@
 
 import { PageHeader } from "@/components/ui/page-header";
 import AIAgentCapabilities from "@/components/dashboard/AIAgentCapabilities";
-import { Sidebar } from "@/components/layout/Sidebar";
+import Sidebar from "@/components/layout/Sidebar";
 
 const AIAgents = () => {
   return (
